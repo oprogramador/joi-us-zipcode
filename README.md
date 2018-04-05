@@ -6,3 +6,18 @@
 
 [![NPM status](https://nodei.co/npm/joi-us-zipcode.png?downloads=true&stars=true)](https://npmjs.org/package/joi-us-zipcode
 )
+
+```js
+const BaseJoi = require('joi');
+const Extension = require('joi-us-zipcode');
+const Joi = BaseJoi.extend(Extension);
+
+const schema = {
+  zip: Joi.string().usZipCode(),
+};
+const object = {
+  zip: '75001',
+};
+
+Joi.validate(schema, object);
+```
