@@ -7,6 +7,10 @@
 [![NPM status](https://nodei.co/npm/joi-us-zipcode.png?downloads=true&stars=true)](https://npmjs.org/package/joi-us-zipcode
 )
 
+Joi extension to validate USA zip codes.
+
+The list of codes is copied from the source of https://github.com/davglass/zipcodes.
+
 ```js
 const BaseJoi = require('joi');
 const Extension = require('joi-us-zipcode');
