@@ -7,6 +7,7 @@ node_js:
   - node
 script:
   - npm install
+  - npm install joi
   - npm run lint
   - npm test
 before_deploy: 'npm run prepublishOnly'
