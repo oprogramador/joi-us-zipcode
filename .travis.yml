@@ -6,12 +6,13 @@ node_js:
   - 8
   - 10
   - 12
+  - 14
   - node
 script:
-  - npm install
-  - npm install joi
-  - npm run lint
-  - npm test
+  - yarn install --non-interactive
+  - yarn add joi@14.3.1
+  - yarn lint
+  - yarn test
 jobs:
   include:
     - stage: deploy
