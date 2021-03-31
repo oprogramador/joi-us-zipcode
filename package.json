@@ -1,6 +1,6 @@
 {
   "name": "joi-us-zipcode",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Joi extension to validate USA zip codes",
   "main": "build/index.js",
   "scripts": {
