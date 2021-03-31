@@ -9,6 +9,7 @@ node_js:
   - node
 script:
   - yarn install --non-interactive
+  - yarn add joi@14.3.1
   - yarn lint
   - yarn test
 jobs:
